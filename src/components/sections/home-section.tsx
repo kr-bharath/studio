@@ -37,7 +37,7 @@ export async function HomeSection() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-4">
             <Button size="lg" asChild className="shadow-lg transform hover:scale-105 transition-transform">
-              <a href="/resume.pdf" download="KR_Bharath_Resume.pdf">
+              <a href="https://krbharath.tiiny.site" download="KR_Bharath_Resume.pdf" target="_blank" rel="noopener noreferrer">
                 <Download className="mr-2 h-5 w-5" /> Resume
               </a>
             </Button>
@@ -70,3 +70,4 @@ export async function HomeSection() {
     </section>
   );
 }
+
