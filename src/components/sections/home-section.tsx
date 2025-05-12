@@ -56,7 +56,7 @@ export async function HomeSection() {
         <div className="flex justify-center">
           <Card className="p-2 bg-card/50 backdrop-blur-sm shadow-2xl rounded-full overflow-hidden transform hover:scale-105 transition-transform duration-300">
             <Image
-              src="https://picsum.photos/300/300"
+              src="https://i.postimg.cc/155mxqfB/BH2.jpg"
               alt="K R Bharath - Profile"
               width={300}
               height={300}
