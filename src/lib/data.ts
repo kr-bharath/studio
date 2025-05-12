@@ -144,7 +144,7 @@ export const projects: Project[] = [
     title: 'PhonePe Pulse Explorer',
     description: 'Created a real-time analytics dashboard for PhonePe Pulse data, enabling 50% faster data querying and visualization of transaction trends.',
     technologies: ['Python', 'Streamlit', 'Plotly', 'Pandas', 'Data Visualization'],
-    imageUrl: 'https://picsum.photos/400/300?random=3',
+    imageUrl: 'https://i.postimg.cc/9XPKhmSQ/phonepe-pulse.webp',
     dataAiHint: 'phonepe analytics',
     icon: Smartphone,
   },
