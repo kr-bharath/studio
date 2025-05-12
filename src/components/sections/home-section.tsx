@@ -22,7 +22,7 @@ import { Card, CardContent } from '@/components/ui/card';
 // }
 
 export function HomeSection() {
-  const welcomeMessage = "Hi, I’m KR Bharath, a Data Scientist, Data Analyst, and Automation Specialist with a passion for leveraging data-driven insights and automation to solve complex business challenges. With 5 years of experience in QA automation and data science, I specialize in machine learning, predictive modeling, and statistical analysis to drive efficiency and innovation.";
+  const welcomeMessage = "Hi, I’m a Data Scientist, Data Analyst, and Automation Specialist with a passion for leveraging data-driven insights and automation to solve complex business challenges. With 5 years of experience in QA automation and data science, I specialize in machine learning, predictive modeling, and statistical analysis to drive efficiency and innovation.";
 
   return (
     <section id="home" className="section-padding min-h-screen flex items-center animated-gradient-background">
