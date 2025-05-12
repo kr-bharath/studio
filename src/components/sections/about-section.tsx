@@ -14,7 +14,7 @@ export function AboutSection() {
           <div className="md:col-span-1 flex justify-center">
             <Card className="p-2 bg-card/80 backdrop-blur-sm shadow-xl rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 max-w-sm">
                <Image
-                src="https://picsum.photos/350/400"
+                src="https://i.postimg.cc/155mxqfB/BH2.jpg"
                 alt="K R Bharath"
                 width={350}
                 height={400}
