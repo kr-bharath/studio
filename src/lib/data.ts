@@ -1,5 +1,6 @@
+
 import type { Icon } from 'lucide-react';
-import { Briefcase, Code2, Brain, HardHat, CloudCog, Database, Users2, LayoutDashboard, ListChecks, Workflow, TrendingUp, SearchCheck, Smartphone, Sigma, TestTube2, Zap, BarChartBig } from 'lucide-react';
+import { Briefcase, Brain, HardHat, CloudCog, Database, UsersRound, LayoutDashboard, ListChecks, Workflow, TrendingUp, SearchCheck, Smartphone, Sigma, TestTube2, Zap, BarChartBig } from 'lucide-react';
 
 export interface JobExperience {
   company: string;
@@ -80,7 +81,7 @@ export const skillCategories: SkillCategory[] = [
   {
     name: 'Soft Skills',
     skills: ['Problem-solving', 'Agile teamwork', 'Communication', 'Analytical Thinking'],
-    icon: Users2,
+    icon: UsersRound,
   },
 ];
 
@@ -109,7 +110,7 @@ export const services: ServiceOffering[] = [
   {
     title: 'End-to-End Selenium Test Frameworks',
     description: 'Developing comprehensive Selenium-based test automation solutions for thorough application testing.',
-    icon: TestTube2,
+    icon: TestTube2, 
   },
 ];
 
@@ -127,8 +128,8 @@ export const projects: Project[] = [
     title: 'Retail Sales Forecasting with ANN',
     description: 'Developed an Artificial Neural Network model to predict retail sales, boosting accuracy by 15%. Deployed on AWS EC2 with a Streamlit UI.',
     technologies: ['Python', 'TensorFlow', 'ANN', 'Streamlit', 'AWS EC2'],
-    imageUrl: 'https://picsum.photos/400/300?random=1',
-    dataAiHint: 'retail forecast',
+    imageUrl: 'https://i.postimg.cc/0jr8Lzfr/Chart.png',
+    dataAiHint: 'sales chart',
     icon: TrendingUp,
   },
   {
