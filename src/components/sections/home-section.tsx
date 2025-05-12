@@ -22,7 +22,7 @@ import { Card, CardContent } from '@/components/ui/card';
 // }
 
 export function HomeSection() {
-  const welcomeMessage = "I'm a data-driven technologist with 5+ years in QA automation and a Master's in Data Science from Guvi (IIT Chennai). With deep expertise in Python, SQL, TensorFlow, Scikit-learn, Selenium, and Cypress, I optimize business workflows through scalable, AI-powered solutions.";
+  const welcomeMessage = "Hi, I’m KR Bharath, a Data Scientist, Data Analyst, and Automation Specialist with a passion for leveraging data-driven insights and automation to solve complex business challenges. With 5 years of experience in QA automation and data science, I specialize in machine learning, predictive modeling, and statistical analysis to drive efficiency and innovation. Explore my projects, skills, and expertise as I continue to push the boundaries of data science and automation to create impactful solutions. Let’s connect and collaborate!";
 
   return (
     <section id="home" className="section-padding min-h-screen flex items-center animated-gradient-background">
