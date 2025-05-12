@@ -14,12 +14,12 @@ export function AboutSection() {
           <div className="md:col-span-1 flex justify-center">
             <Card className="p-2 bg-card/80 backdrop-blur-sm shadow-xl rounded-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 max-w-sm">
                <Image
-                src="https://i.postimg.cc/155mxqfB/BH2.jpg"
+                src="https://i.postimg.cc/W184KcmD/istockphoto-1387900612-612x612.jpg"
                 alt="K R Bharath"
                 width={350}
                 height={400}
                 className="rounded-md object-cover aspect-[3/4]"
-                data-ai-hint="professional portrait"
+                data-ai-hint="profile image"
               />
             </Card>
           </div>
@@ -68,3 +68,4 @@ export function AboutSection() {
     </section>
   );
 }
+
