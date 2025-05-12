@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, Code2 } from 'lucide-react';
+import { Menu, BarChartBig } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 const navLinks = [
@@ -46,7 +46,7 @@ export function Navbar() {
     >
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="#home" className="flex items-center gap-2 text-lg font-semibold">
-          <Code2 className="h-7 w-7 text-primary" />
+          <BarChartBig className="h-7 w-7 text-primary" />
           <span className="gradient-text">DataGraph</span>
         </Link>
         
@@ -73,3 +73,4 @@ export function Navbar() {
     </header>
   );
 }
+
