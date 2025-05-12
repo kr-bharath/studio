@@ -1,6 +1,6 @@
 
 import type { Icon } from 'lucide-react';
-import { Briefcase, Brain, HardHat, CloudCog, Database, UsersRound, LayoutDashboard, ListChecks, Workflow, TrendingUp, SearchCheck, Smartphone, Sigma, TestTube2, Zap, BarChartBig } from 'lucide-react';
+import { Briefcase, Brain, HardHat, CloudCog, Database, UsersRound, LayoutDashboard, ListChecks, Workflow, TrendingUp, SearchCheck, Smartphone, Sigma, TestTubeDiagonal, Zap, BarChartBig } from 'lucide-react';
 
 export interface JobExperience {
   company: string;
@@ -110,7 +110,7 @@ export const services: ServiceOffering[] = [
   {
     title: 'End-to-End Selenium Test Frameworks',
     description: 'Developing comprehensive Selenium-based test automation solutions for thorough application testing.',
-    icon: TestTube2, 
+    icon: TestTubeDiagonal, 
   },
 ];
 
@@ -136,7 +136,7 @@ export const projects: Project[] = [
     title: 'Copper Insight Platform',
     description: 'Built a platform for copper industry analysis, achieving over 90% accuracy in regression and classification tasks for material properties.',
     technologies: ['Python', 'Scikit-learn', 'Pandas', 'Regression', 'Classification'],
-    imageUrl: 'https://picsum.photos/400/300?random=2',
+    imageUrl: 'https://i.postimg.cc/BnJq07Nd/Copper-Pr.webp',
     dataAiHint: 'copper industry',
     icon: SearchCheck,
   },
