@@ -30,7 +30,7 @@ export function HomeSection() {
         <div className="space-y-6 text-center md:text-left">
           <p className="text-lg md:text-xl text-primary font-medium">{welcomeMessage}</p>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
-            K . R . BHARATH
+            𝕂 . ℝ . 𝔹ℍ𝔸ℝ𝔸𝕋ℍ
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground">
             Data scientist and automation expert combining 5 years of QA experience with advanced machine learning and data analytics. Explore my projects, skills, and expertise as I continue to push the boundaries of data science and automation to create impactful solutions. Let’s connect and collaborate!
@@ -70,3 +70,4 @@ export function HomeSection() {
     </section>
   );
 }
+
