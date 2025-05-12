@@ -33,7 +33,7 @@ export function HomeSection() {
             Hi, I’m K R Bharath
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground">
-            A data scientist and automation expert combining 5 years of QA experience with advanced machine learning and data analytics.
+            Hi, I’m KR Bharath, a Data Scientist, Data Analyst, and Automation Specialist with a passion for leveraging data-driven insights and automation to solve complex business challenges. With 5 years of experience in QA automation and data science, I specialize in machine learning, predictive modeling, and statistical analysis to drive efficiency and innovation. Explore my projects, skills, and expertise as I continue to push the boundaries of data science and automation to create impactful solutions. Let’s connect and collaborate!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-4">
             <Button size="lg" asChild className="shadow-lg transform hover:scale-105 transition-transform">
