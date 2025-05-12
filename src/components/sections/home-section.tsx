@@ -2,27 +2,27 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Download, Send, Linkedin } from 'lucide-react';
-import { generateDynamicWelcomeMessage, type DynamicWelcomeMessageInput } from '@/ai/flows/dynamic-welcome-message';
 import { Card, CardContent } from '@/components/ui/card';
 
-async function getWelcomeMessage() {
-  const input: DynamicWelcomeMessageInput = {
-    recentAccomplishments: "Reduced regression cycles by 30% at Cognizant, Established 95% test coverage at Prime Software.",
-    yearsOfExperience: 5,
-    currentTechTrends: "AI-powered solutions, data analytics, scalable automation, intelligent decision-making in data science and automation fields."
-  };
-  try {
-    const result = await generateDynamicWelcomeMessage(input);
-    return result.welcomeMessage;
-  } catch (error) {
-    console.error("Error generating welcome message:", error);
-    // Fallback message
-    return "Welcome! Explore my work in data science and automation.";
-  }
-}
+// The dynamic welcome message generation is replaced by a static message as per user request.
+// async function getWelcomeMessage() {
+//   const input: DynamicWelcomeMessageInput = {
+//     recentAccomplishments: "Reduced regression cycles by 30% at Cognizant, Established 95% test coverage at Prime Software.",
+//     yearsOfExperience: 5,
+//     currentTechTrends: "AI-powered solutions, data analytics, scalable automation, intelligent decision-making in data science and automation fields."
+//   };
+//   try {
+//     const result = await generateDynamicWelcomeMessage(input);
+//     return result.welcomeMessage;
+//   } catch (error) {
+//     console.error("Error generating welcome message:", error);
+//     // Fallback message
+//     return "Welcome! Explore my work in data science and automation.";
+//   }
+// }
 
-export async function HomeSection() {
-  const welcomeMessage = await getWelcomeMessage();
+export function HomeSection() {
+  const welcomeMessage = "I'm a data-driven technologist with 5+ years in QA automation and a Master's in Data Science from Guvi (IIT Chennai). With deep expertise in Python, SQL, TensorFlow, Scikit-learn, Selenium, and Cypress, I optimize business workflows through scalable, AI-powered solutions.";
 
   return (
     <section id="home" className="section-padding min-h-screen flex items-center animated-gradient-background">
@@ -70,4 +70,3 @@ export async function HomeSection() {
     </section>
   );
 }
-
