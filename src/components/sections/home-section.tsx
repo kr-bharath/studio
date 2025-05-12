@@ -29,7 +29,7 @@ export function HomeSection() {
       <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6 text-center md:text-left">
           <p className="text-lg md:text-xl text-primary font-medium">{welcomeMessage}</p>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">
             𝕂 . ℝ . 𝔹ℍ𝔸ℝ𝔸𝕋ℍ
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground">
